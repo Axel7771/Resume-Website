@@ -13,7 +13,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
     <a target="_blank" href={{github}}>Learn more about me and code contributions here </a>
     <h2> Follow my other Social Media </h2>
     <a target="_blank" href="{{linkedIn}}"> LinkedIn Here!</a>
-    <h3> </h3>
+    <div> </div>
     <a target="_blank" href="{{twitter_user}}"> Follow my twitter!</a>
   `,
 })
