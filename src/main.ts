@@ -7,6 +7,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
+  styleUrls: ['local_styles.css'],
   template: `
     <h1> Welcome to my Angular website!</h1>
     <a target="_blank" href={{github}}>Learn more about me and code contributions here </a>
