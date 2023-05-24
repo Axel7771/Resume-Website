@@ -1,21 +1,33 @@
 h1 {
   color: blue;
   font-size: 16px;
-  text-align: left;
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
   color: blue;
-  text-align: left;
+  text-align: center;
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
 
 }
 
 a {
-  color: blueviolet;
+  color: black;
   font-size: 12px;
   font-family: 'Courier New', Courier, monospace;
 
 }
+
+p {
+  color: black;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: slategray;
+  border: 5px solid black;
+}
+
