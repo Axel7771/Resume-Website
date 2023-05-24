@@ -7,28 +7,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
-  styleUrls: ['local_styles.css'],
-  template: `
-<body>
-    <h1> Welcome to my Angular website!</h1>
+  styleUrls: ['./app/local_styles.css'],
+  templateUrl: './app/app.component.html',
 
-    <div>
-      <p>{{ summary }}</p>
-    </div>
-
-    <h2> Follow my other Social Media </h2>
-
-    <div> 
-      <ul>
-          <li><a target="_blank" href="{{linkedIn}}"> LinkedIn</a></li>
-          <li><a target="_blank" href="{{twitter_user}}"> Twitter</a></li>
-          <li><a target="_blank" href="{{github}}"> Github </a></li>
-      </ul>
-    </div>
-  </body>
-
-  <footer> </footer>
-  `,
 })
 
 export class App {
